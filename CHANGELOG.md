@@ -8,6 +8,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 While the project is on `0.x`, MINOR-version bumps may break the public API
 per SemVer §4.
 
+## [0.2.0](https://github.com/fsafaei/concerto/compare/v0.1.1...v0.2.0) (2026-05-12)
+
+
+### Features
+
+* **benchmarks:** stage0_smoke env adapter for ego-AHT training (T4b.3) ([#74](https://github.com/fsafaei/concerto/issues/74)) ([c56df38](https://github.com/fsafaei/concerto/commit/c56df38ee2fefd59d31844ff55d3ff8d3e652378))
+* **training,cli:** runtime device + chamber-spike train + GPU host kit (T4b.14 prep) ([#76](https://github.com/fsafaei/concerto/issues/76)) ([0a1b0ca](https://github.com/fsafaei/concerto/commit/0a1b0ca8952ad0e4784d3d888d18c8e5c096eee7))
+* **training:** empirical-guarantee scaffolding + xfail trip-wire probe (T4b.13) ([#63](https://github.com/fsafaei/concerto/issues/63)) ([48f46e9](https://github.com/fsafaei/concerto/commit/48f46e92e5d2e0175281392773e13c7753060274))
+* **training:** replace empirical-guarantee statistic with slope test (closes [#62](https://github.com/fsafaei/concerto/issues/62)) ([#72](https://github.com/fsafaei/concerto/issues/72)) ([75b5c7a](https://github.com/fsafaei/concerto/commit/75b5c7a69d84e127b0eb0da9cf39ae9f2b3e4a2f))
+
+
+### Bug Fixes
+
+* **training:** handle time-limit truncation in GAE bootstrap (issue [#62](https://github.com/fsafaei/concerto/issues/62) root cause) ([#70](https://github.com/fsafaei/concerto/issues/70)) ([e0819be](https://github.com/fsafaei/concerto/commit/e0819be91d0200d05243018fb2f7fcd3f07fae0b))
+
+
+### Documentation
+
+* **brand:** crop logo PNGs to their content bounding box ([#69](https://github.com/fsafaei/concerto/issues/69)) ([f42203b](https://github.com/fsafaei/concerto/commit/f42203beab6b9761b46b1d056e16552fd7546ec3))
+* **brand:** use the white-text logo + size it to fit the docs header ([#68](https://github.com/fsafaei/concerto/issues/68)) ([2cde7d7](https://github.com/fsafaei/concerto/commit/2cde7d7bf690a3daf534a1a7aeb1032392d58505))
+* **brand:** wire up the CONCERTO logo for README + mkdocs theme ([#67](https://github.com/fsafaei/concerto/issues/67)) ([0a1e2f7](https://github.com/fsafaei/concerto/commit/0a1e2f7ad06191870bfdbba0811ed26dfd147bd3))
+* **readme:** add Zenodo DOI badge to the top of the badge row ([#61](https://github.com/fsafaei/concerto/issues/61)) ([718c14f](https://github.com/fsafaei/concerto/commit/718c14faf3fdb80a1858d94fce6a0b7a4bfc4c7a))
+* **readme:** correct comparison table — purge Singh row, add precedent links ([#75](https://github.com/fsafaei/concerto/issues/75)) ([48a59e2](https://github.com/fsafaei/concerto/commit/48a59e2b19694e516466af79f201fbba479c78b9))
+* **readme:** use ``/latest/`` versioned path for docs deep-links ([#65](https://github.com/fsafaei/concerto/issues/65)) ([1b6cf88](https://github.com/fsafaei/concerto/commit/1b6cf884a65cd6937540f56ac8f321b635957bb1))
+* **readme:** wire up the Zenodo DOI in CITATION.cff and the bibtex ([#66](https://github.com/fsafaei/concerto/issues/66)) ([1c4a82c](https://github.com/fsafaei/concerto/commit/1c4a82c8200327c4630e9c591db2ff7f6d2513d8))
+
 ## [0.1.1](https://github.com/fsafaei/concerto/compare/v0.1.0...v0.1.1) (2026-05-11)
 
 
